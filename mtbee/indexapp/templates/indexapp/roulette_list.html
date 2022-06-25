@@ -1,0 +1,31 @@
+{% extends 'indexapp/base.html' %}
+
+{% block header %}
+    <h1>ルーレット</h1>
+{% endblock header %}
+
+{% block content %}
+<div class="menu">
+    <p class="btn"><a href="{% url 'roulette_create' %}">新規登録</a></p>
+    <p class="btn"><a href="{% url 'roulette_list' %}">リロード</a></p>
+    <p class="btn"><a href="{% url 'top' %}">TOP</a></p>
+</div>
+
+<table>
+    <thead>
+        <tr class="border">
+            <th scope="col">リロードでランダムに並び変わります↓</th>
+            <th scope="col">削除</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for roulette in roulette_ex %}
+        <tr class="border">
+            <td>{{ roulette.name }}</td>
+            <td><a href="{% url 'roulette_delete' roulette.pk %}">削除</a></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock content %}

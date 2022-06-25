@@ -1,0 +1,18 @@
+{% extends 'indexapp/base.html' %}
+
+{% block header %}
+    <h1>詳細</h1>
+{% endblock header %}
+
+{% block content %}
+<div class="detail">
+    <p>No. {{index.number}}</p>
+    <p>コード {{index.code}}</p>
+    <p>品名 {{index.name}}</p>
+    <p>数量 {{index.quantity}} {{index.unit}}</p>
+    <p>備考 {{index.description}}</p>
+</div>
+
+<p class="btn"><a href="{% url 'index_list' %}">一覧に戻る</a></p>
+
+{% endblock content %}

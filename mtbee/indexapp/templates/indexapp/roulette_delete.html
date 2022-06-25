@@ -1,0 +1,15 @@
+{% extends 'indexapp/base.html' %}
+
+{% block header %}
+    {% if request.user.is_authenticated %}
+        <p>{{ user.username }}さんがログイン中です</p>
+    {% endif %}
+    <h1>ルーレット 削除画面</h1>
+{% endblock header %}
+
+{% block content %}
+<form action="" method="POST">{% csrf_token %}
+    <p>{{ roulette.name }}</p>
+    <input type="submit" value="削除">
+</form>
+{% endblock content %}

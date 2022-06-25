@@ -1,0 +1,14 @@
+{% extends 'indexapp/base.html' %}
+
+{% block header %}
+    <h1>Index TOP</h1>
+{% endblock header %}
+
+{% block content %}
+
+<ul>
+    <li><a href="{% url 'index_list' %}">発注リスト</a></li>
+    <li><a href="{% url 'roulette_list' %}">なにするルーレット</a></li>
+    <li><a href="{% url 'map' %}">出没地図</a></li>
+</ul>
+{% endblock content %}

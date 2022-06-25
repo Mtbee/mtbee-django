@@ -1,0 +1,12 @@
+{% extends 'indexapp/base.html' %}
+
+{% block header %}
+    <h1>削除画面</h1>
+{% endblock header %}
+
+{% block content %}
+<form action="" method="POST">{% csrf_token %}
+    <p>{{ index.name }}</p>
+    <input type="submit" value="削除">
+</form>
+{% endblock content %}

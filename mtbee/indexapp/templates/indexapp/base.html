@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>index</title>
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'indexapp/base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'indexapp/style.css' %}">
+</head>
+<body>
+    <header>
+        {% block header %}
+        {% endblock header %}
+    </header>
+
+    {% block content %}
+    {% endblock content %}
+</body>
+</html>

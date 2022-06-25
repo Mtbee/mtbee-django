@@ -1,0 +1,57 @@
+header {
+    height: 100px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+.menu {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 90px;
+    height: 30px;
+    background-color: lightsteelblue;
+    border-radius: 3px;
+    box-shadow: 3px 3px gray;
+    text-align: center;
+    line-height: 30px;
+}
+
+.btn a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: lightslategray;
+    text-align: left;
+}
+
+.detail {
+    margin-left: 5%;
+}
+
+.border th, .border td{
+    /* border: solid 1px; */
+}
+
+.form tbody tr th, .form tbody tr td{
+    display: block;
+    width: 90%;
+}
+
+.form tbody tr th {
+    text-align: left;
+    padding-top: 20px;
+}

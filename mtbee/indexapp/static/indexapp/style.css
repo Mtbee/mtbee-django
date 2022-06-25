@@ -1,0 +1,190 @@
+svg {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+
+/* 北海道 */
+#hokkaido {
+  fill: #6bbedf;
+}
+
+/* 東北 */
+#aomori {
+  fill: #bde2ee;
+}
+#akita {
+  fill: #bde2ee;
+}
+#iwate {
+  fill: #bde2ee;
+}
+#yamagata {
+  fill: #bde2ee;
+}
+#miyagi {
+  fill: #bde2ee;
+}
+#fukushima {
+  fill: #bde2ee;
+}
+
+/* 中部 */
+#fukui {
+  fill: #c8bdee;
+}
+#toyama {
+  fill: #c8bdee;
+}
+#ishikawa {
+  fill: #c8bdee;
+}
+#nagano {
+  fill: #9077ed;
+}
+#yamanashi {
+  fill: #c8bdee;
+}
+#shizuoka {
+  fill: #c8bdee;
+}
+#aichi {
+  fill: #c8bdee;
+}
+#shizuoka {
+  fill: #c8bdee;
+}
+#nigata {
+  fill: #9077ed;
+}
+#gifu {
+  fill: #c8bdee;
+}
+
+/* 関東 */
+#tokyo {
+  fill: #bdc7ee;
+}
+#saitama {
+  fill: #778eed;
+}
+#kanagawa {
+  fill: #bdc7ee;
+}
+#chiba {
+  fill: #778eed;
+}
+#tochigi {
+  fill: #778eed;
+}
+#ibaraki {
+  fill: #bdc7ee;
+}
+#gunma {
+  fill: #bdc7ee;
+}
+/* 近畿 */
+#osaka {
+  fill: #bc77ed;
+}
+#hyogo {
+  fill: #dabdee;
+}
+#kyoto {
+  fill: #dabdee;
+}
+#nara {
+  fill: #dabdee;
+}
+#mie {
+  fill: #dabdee;
+}
+#wakayama {
+  fill: #dabdee;
+}
+#shiga {
+  fill: #dabdee;
+}
+/* 中国 */
+#shimane {
+  fill: #eebde6;
+}
+#tottori {
+  fill: #eebde6;
+}
+#yamaguchi {
+  fill: #eebde6;
+}
+#hiroshima {
+  fill: #eebde6;
+}
+#okayama {
+  fill: #eebde6;
+}
+/* 四国 */
+#ehime {
+  fill: #eebdcd;
+}
+#kouchi {
+  fill: #eebdcd;
+}
+#kagawa {
+  fill: #eebdcd;
+}
+#tokushima {
+  fill: #eebdcd;
+}
+/* 九州 */
+#oita {
+  fill: #eed1bd;
+}
+#fukuoka {
+  fill: #eed1bd;
+}
+#saga {
+  fill: #eed1bd;
+}
+#nagasaki {
+  fill: #eed1bd;
+}
+#kumamoto {
+  fill: #eed1bd;
+}
+#miyazaki {
+  fill: #eed1bd;
+}
+#kagoshima {
+  fill: #eed1bd;
+}
+
+
+a {
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+a :active, :hover {
+  opacity: 1;
+}
+
+.container {
+  width: 90vw;
+  margin: 20px auto;
+}
+
+.container .packer {
+  padding: 1vw;
+  margin: 2vw;
+  background-color: gainsboro;
+  border-radius: 1vw;
+}
+.container .packer a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.packer p {
+  margin: 0;
+}

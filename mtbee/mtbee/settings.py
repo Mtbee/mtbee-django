@@ -25,7 +25,7 @@ SECRET_KEY = 'iw&0c($(2%n0**bp)tctrp+&cfd5s%(8qk2**!*^ho)ibr8=s^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','mtbee2.pythonanywhere.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','.pythonanywhere.com']
 
 
 # Application definition
